@@ -1,0 +1,100 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  max-width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(-180deg, rgb(101, 172, 237), rgb(10, 67, 124));
+  background-image: url(./img/allan.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+.text-container {
+  background-color: rgb(214, 195, 166);
+}
+p {
+  font-size: 1.4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(68, 67, 67);
+  word-spacing: 0.15rem;
+}
+a {
+  padding: 0.2rem;
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(66, 65, 65);
+  font-weight: bold;
+}
+
+a:hover {
+  cursor: pointer;
+  color: black;
+  background-color: grey;
+}
+
+footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+
+q {
+  font-style: italic;
+  background-color: rgb(233, 233, 233);
+  font-size: 1.8rem;
+  border-left: 3px black solid;
+  padding-left: 30px;
+  line-height: 80px;
+}
+
+.good {
+  text-transform: capitalize;
+  color: green;
+}
+
+.bad {
+  text-transform: capitalize;
+  color: red;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+p:nth-child(0) {
+  font-weight: bold;
+}
+
+.right {
+  float: right;
+  margin: 1.2rem;
+}
+
+.left {
+  float: left;
+  margin: 1.2rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-right {
+  background: #ffffdd;
+  padding: 0.5rem 1rem;
+  border: 3px solid #ddddcc;
+  width: 250px;
+  font-weight: bold;
+  color: #333300;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
